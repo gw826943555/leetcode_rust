@@ -6,7 +6,6 @@ impl Solution {
     pub fn is_happy(n: i32) -> bool {
         let mut sumset = HashSet::new();
         let mut n_str = n.to_string();
-        let mut sum = 0;
 
         loop {
             let mut sum = 0;
